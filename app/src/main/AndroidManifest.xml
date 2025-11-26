@@ -1,16 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    package="com.hagzy">
-
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.VIBRATE" />
-
-    <uses-permission android:name="android.permission.CAMERA" />
-    <uses-feature android:name="android.hardware.camera" android:required="false" />
-
+    xmlns:tools="http://schemas.android.com/tools">
     <application
         android:extractNativeLibs="false"
         android:allowBackup="true"
@@ -23,11 +13,8 @@
         android:theme="@style/Theme.Hagzy"
         tools:targetApi="34">
         <profileable android:shell="true" tools:targetApi="31" />
-        <meta-data
-            android:name="com.mapbox.access_token"
-            android:value="pk.eyJ1IjoiYWhtZWQ0NTIxNSIsImEiOiJjbWhxbnYweDcwNTJ1MmxyOHl1YmJ0aHZvIn0.Y1Zcrzz_40EWMH8t45Pbyg" />
         <activity
-            android:name="com.hagzy.SplashActivity"
+            android:name="com.bytepulse.hagzy.SplashActivity"
             android:exported="true"
             android:theme="@style/Theme.Hagzy.Splash">
             <intent-filter>
@@ -35,64 +22,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.bytepulse.hagzy.AuthActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Hagzy.NoActionBar" />
 
         <activity
-            android:name="com.hagzy.ProviderScannerActivity"
+            android:name="com.bytepulse.hagzy.RootActivity"
             android:exported="false"
-            android:theme="@style/Theme.Hagez.NoActionBar" />
-
-
-
-        <activity
-            android:name="com.hagzy.InboxActivity"
-            android:exported="false"
-            android:theme="@style/Theme.Hagez.NoActionBar" />
-
-
-        <activity
-            android:name="com.hagzy.MyBookingActivity"
-            android:exported="false"
-            android:theme="@style/Theme.Hagez.NoActionBar" />
-
-        <activity
-            android:name="com.hagzy.SettingsActivity"
-            android:exported="false"
-            android:theme="@style/Theme.Hagez.NoActionBar" />
-
-
-        <activity
-            android:name="com.hagzy.FieldActivity"
-            android:exported="false"
-            android:theme="@style/Theme.Hagez.NoActionBar" />
-
-        <activity
-            android:name="com.hagzy.BookingActivity"
-            android:exported="false"
-            android:theme="@style/Theme.Hagez.NoActionBar" />
-
-        <activity
-            android:name="com.hagzy.QRScannerActivity"
-            android:exported="false"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
-
-        <!-- الشاشة الرئيسية بعد تسجيل الدخول -->
-        <activity
-            android:name="com.hagzy.MainActivity"
-            android:exported="false"
-            android:theme="@style/Theme.Hagez.NoActionBar" />
-
-        <!-- شاشة تسجيل الدخول -->
-        <activity
-            android:name="com.hagzy.AuthActivity"
-            android:exported="false"
-            android:theme="@style/Theme.Hagez.NoActionBar" />
-
-        <activity
-            android:name="com.hagzy.RootActivity"
-            android:exported="false"
-            android:theme="@style/Theme.Hagez.NoActionBar" />
-
-        <!-- RootActivity هي أول شاشة تفتح التطبيق -->
+            android:theme="@style/Theme.Hagzy.NoActionBar" />
     </application>
 
 </manifest>

@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.hagzy", appContext.getPackageName());
+        assertEquals("com.bytepulse.bytepulse.bytepulse.bytepulse.bytepulse.hagzy", appContext.getPackageName());
     }
 }

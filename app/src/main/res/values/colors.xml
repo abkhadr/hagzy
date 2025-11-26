@@ -7,7 +7,7 @@
     <color name="Surface">#1F1F1F</color>
 
     <!-- ✳️ Accent -->
-    <color name="Accent">#65E030</color>
+    <color name="Accent">#000000</color>
     <color name="AccentVariant">#4DBA27</color>
 
     <!-- 🧾 Text -->
