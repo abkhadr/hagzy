@@ -1,0 +1,18 @@
+name = "hagzy-challenge-worker"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+
+# KV Namespace for Challenges Storage
+[[kv_namespaces]]
+binding = "CHALLENGES_KV"
+id = "2e1c76e40e094ae3aac6c1c6c1ff2e2e"
+preview_id = "YOUR_PREVIEW_KV_NAMESPACE_ID"
+
+# Durable Objects for WebSocket Connections
+[[durable_objects.bindings]]
+name = "CONNECTIONS"
+class_name = "ConnectionsManager"
+
+[[migrations]]
+tag = "v1"
+new_classes = ["ConnectionsManager"]

@@ -14,7 +14,7 @@
         tools:targetApi="34">
         <profileable android:shell="true" tools:targetApi="31" />
         <activity
-            android:name="com.bytepulse.hagzy.SplashActivity"
+            android:name="com.bytepulse.hagzy.activities.SplashActivity"
             android:exported="true"
             android:theme="@style/Theme.Hagzy.Splash">
             <intent-filter>
@@ -23,12 +23,12 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.bytepulse.hagzy.AuthActivity"
+            android:name="com.bytepulse.hagzy.activities.AuthActivity"
             android:exported="false"
             android:theme="@style/Theme.Hagzy.NoActionBar" />
 
         <activity
-            android:name="com.bytepulse.hagzy.RootActivity"
+            android:name="com.bytepulse.hagzy.activities.RootActivity"
             android:exported="false"
             android:theme="@style/Theme.Hagzy.NoActionBar" />
     </application>

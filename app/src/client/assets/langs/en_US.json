@@ -1,6 +1,112 @@
 {
+  "app": {
+    "name": "Hagzy"
+  },
   "bookings": "Bookings",
-  "search_hint": "Search for field or restaurant...",
+  "search_hint": "Search for a field or restaurant...",
   "unknown": "Unknown Page",
-  "settings": "Settings"
+  "common": {
+    "certified": "Certified"
+  },
+  "action": {
+    "details": "Details"
+  },
+  "field": {
+    "account": "Account",
+    "privacy": "Privacy",
+    "language": "Language",
+    "logout": "Logout",
+    "booking": "Booking",
+    "my_profile": "My Profile",
+    "matches": "Matches",
+    "stadiums": "Stadiums"
+  },
+  "login": {
+    "title": "Login"
+  },
+  "settings": {
+    "title": "Settings",
+    "account": "Account",
+    "edit_profile": "Profile Information",
+    "edit_profile_desc": "Update your phone number and basic information.",
+    "preferences": "Preferences",
+    "language": "Language",
+    "language_desc": "Choose the language displayed in the Hagzy app.",
+    "language_option": {
+      "ar": "Arabic",
+      "en": "English"
+    },
+    "language_updated": "Language updated. The app will restart.",
+    "language_already": "This language is already active.",
+    "notifications": "Notifications",
+    "notifications_desc": "Select the alerts that matter to you.",
+    "notifications_section": {
+      "booking": "Booking Notifications",
+      "app": "App Notifications"
+    },
+    "notifications_item": {
+      "booking_confirm": "Booking Confirmation",
+      "booking_confirm_desc": "Receive an alert when any booking is confirmed.",
+      "booking_reminder": "Booking Reminder",
+      "booking_reminder_desc": "Get a reminder one hour before the play time.",
+      "offers": "Offers & Discounts",
+      "offers_desc": "Alerts about offers, bundles, and partners.",
+      "updates": "Product Updates",
+      "updates_desc": "New releases and features of Hagzy."
+    },
+    "about": "About Hagzy",
+    "privacy_policy": "Privacy Policy",
+    "privacy_policy_desc": "How we handle your personal data.",
+    "privacy_body": "We respect your privacy and are committed to protecting your personal data. This section explains how data is collected, stored, and used to deliver Hagzy’s services.",
+    "terms": "Terms & Conditions",
+    "terms_desc": "View Hagzy’s user agreement.",
+    "terms_body": "By using the Hagzy app, you agree to the usage policy and booking/payment rules. Please review the full terms for more details.",
+    "account_actions": "Account Actions",
+    "logout": "Logout",
+    "version_label": "Version %1$s • %2$s"
+  },
+  "main_header": {
+    "profile_button": "My Profile",
+    "challenge_button": "Challenges"
+  },
+  "player_profile": {
+    "default_name": "Player",
+    "default_title": "Player",
+    "id_label": "ID",
+    "copy_id_toast": "ID copied",
+    "section": {
+      "level": "Level & Progress",
+      "stats": "Match Statistics",
+      "skills": "Technical Skills",
+      "achievements": "Achievements"
+    },
+    "xp_progress": "%1$d / %2$d XP",
+    "stats": {
+      "matches": "Matches",
+      "wins": "Wins",
+      "draws": "Draws",
+      "losses": "Losses",
+      "goals": "Goals",
+      "assists": "Assists",
+      "win_rate": "Win Rate"
+    },
+    "skills": {
+      "strength": "Physical Strength",
+      "speed": "Speed",
+      "stamina": "Stamina",
+      "technique": "Technical Skill",
+      "teamwork": "Teamwork"
+    },
+    "achievements": {
+      "none": "No achievements yet",
+      "locked": "No unlocked achievements"
+    },
+    "position": {
+      "generic": "Player",
+      "goalkeeper": "Goalkeeper",
+      "defender": "Defender",
+      "midfielder": "Midfielder",
+      "forward": "Forward"
+    }
+  }
 }

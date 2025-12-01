@@ -1,4 +1,7 @@
 {
+  "app": {
+    "name": "حجزي"
+  },
   "bookings": "الحجوزات",
   "search_hint": "ابحث عن ملعب أو مطعم...",
   "unknown": "صفحة غير معروفة",
@@ -13,12 +16,95 @@
     "privacy": "الخصوصية",
     "language": "اللغة",
     "logout": "تسجيل الخروج",
-    "booking": "الحجز"
+    "booking": "الحجز",
+    "my_profile": "ملفي"
   },
   "login": {
     "title": "تسجيل الدخول"
   },
   "settings": {
-    "title": "الإعدادات"
+    "title": "الإعدادات",
+    "account": "الحساب",
+    "edit_profile": "بيانات الحساب",
+    "edit_profile_desc": "حدّث رقم الهاتف وبياناتك الأساسية.",
+    "preferences": "التفضيلات",
+    "language": "اللغة",
+    "language_desc": "اختر اللغة التي يظهر بها تطبيق حجزي.",
+    "language_option": {
+      "ar": "العربية",
+      "en": "الإنجليزية"
+    },
+    "language_updated": "تم تحديث اللغة وسيعاد تشغيل التطبيق.",
+    "language_already": "هذه اللغة مفعّلة بالفعل.",
+    "notifications": "الإشعارات",
+    "notifications_desc": "حدّد التنبيهات التي تهمّك.",
+    "notifications_section": {
+      "booking": "إشعارات الحجز",
+      "app": "إشعارات التطبيق"
+    },
+    "notifications_item": {
+      "booking_confirm": "تأكيد الحجز",
+      "booking_confirm_desc": "استقبل تنبيهاً عند تأكيد أي حجز.",
+      "booking_reminder": "تذكير الحجز",
+      "booking_reminder_desc": "تذكير قبل موعد اللعب بساعة.",
+      "offers": "العروض والخصومات",
+      "offers_desc": "تنبيهات بالعروض والباقات والشركاء.",
+      "updates": "تحديثات المنتج",
+      "updates_desc": "إصدارات وميزات حجزي الجديدة."
+    },
+    "about": "حول حجزي",
+    "privacy_policy": "سياسة الخصوصية",
+    "privacy_policy_desc": "كيف نتعامل مع بياناتك الشخصية.",
+    "privacy_body": "نحترم خصوصيتك ونلتزم بحماية بياناتك الشخصية. يوضح هذا القسم طريقة جمع البيانات وتخزينها واستخدامها لتقديم خدمات حجزي.",
+    "terms": "الشروط والأحكام",
+    "terms_desc": "اطّلع على اتفاقية استخدام حجزي.",
+    "terms_body": "باستخدامك لتطبيق حجزي فأنت توافق على سياسة الاستخدام وقواعد الحجز والدفع. يُرجى مراجعة الشروط كاملة لمزيد من التفاصيل.",
+    "account_actions": "إجراءات الحساب",
+    "logout": "تسجيل الخروج",
+    "version_label": "الإصدار %1$s • %2$s"
+  },
+  "main_header": {
+    "profile_button": "ملفي",
+    "challenge_button": "التحديات"
+  },
+  "player_profile": {
+    "default_name": "لاعب",
+    "default_title": "لاعب",
+    "id_label": "المعرف",
+    "copy_id_toast": "تم نسخ المعرف",
+    "section": {
+      "level": "المستوى والتقدم",
+      "stats": "إحصائيات المباريات",
+      "skills": "المهارات الفنية",
+      "achievements": "الإنجازات"
+    },
+    "xp_progress": "%1$d / %2$d نقطة خبرة",
+    "stats": {
+      "matches": "المباريات",
+      "wins": "الانتصارات",
+      "draws": "التعادل",
+      "losses": "الخسائر",
+      "goals": "الأهداف",
+      "assists": "التمريرات",
+      "win_rate": "نسبة الفوز"
+    },
+    "skills": {
+      "strength": "القوة البدنية",
+      "speed": "السرعة",
+      "stamina": "التحمل",
+      "technique": "المهارة التقنية",
+      "teamwork": "روح الفريق"
+    },
+    "achievements": {
+      "none": "لا توجد إنجازات حتى الآن",
+      "locked": "لا توجد إنجازات مفتوحة"
+    },
+    "position": {
+      "generic": "لاعب",
+      "goalkeeper": "حارس مرمى",
+      "defender": "مدافع",
+      "midfielder": "لاعب وسط",
+      "forward": "مهاجم"
+    }
   }
 }

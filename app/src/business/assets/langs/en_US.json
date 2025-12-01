@@ -2,5 +2,45 @@
   "bookings": "Bookings",
   "search_hint": "Search for field or restaurant...",
   "unknown": "Unknown Page",
-  "settings": "Settings"
+  "settings": {
+    "title": "Settings",
+    "account": "Account",
+    "edit_profile": "Profile information",
+    "edit_profile_desc": "Update phone and personal info.",
+    "preferences": "Preferences",
+    "language": "Language",
+    "language_desc": "Choose how Hagzy is displayed.",
+    "language_option": {
+      "ar": "Arabic",
+      "en": "English"
+    },
+    "language_updated": "Language updated. Restarting…",
+    "language_already": "This language is already active.",
+    "notifications": "Notifications",
+    "notifications_desc": "Decide what Hagzy keeps you notified about.",
+    "notifications_section": {
+      "booking": "Booking alerts",
+      "app": "App alerts"
+    },
+    "notifications_item": {
+      "booking_confirm": "Booking confirmation",
+      "booking_confirm_desc": "Get notified when a booking is confirmed.",
+      "booking_reminder": "Booking reminder",
+      "booking_reminder_desc": "Reminder one hour before play time.",
+      "offers": "Offers & promos",
+      "offers_desc": "New offers, bundles and partner perks.",
+      "updates": "Product updates",
+      "updates_desc": "Major releases and announcements."
+    },
+    "about": "About Hagzy",
+    "privacy_policy": "Privacy policy",
+    "privacy_policy_desc": "How we handle your personal data.",
+    "privacy_body": "We respect your privacy and commit to protecting your personal data. This section explains how data is collected, stored, and used to provide Hagzy services.",
+    "terms": "Terms of use",
+    "terms_desc": "Read the full Hagzy agreement.",
+    "terms_body": "By using Hagzy you agree to abide by our usage policy, booking rules, and payment conditions. Please review the full terms for more details.",
+    "account_actions": "Account actions",
+    "logout": "Log out",
+    "version_label": "Version %1$s • %2$s"
+  }
 }

@@ -4,14 +4,15 @@ import android.animation.AnimatorListenerAdapter;
 import android.animation.ValueAnimator;
 import android.content.Context;
 import android.graphics.Color;
-import android.util.TypedValue;
 import android.view.Gravity;
 import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
-
+import static com.bytepulse.hagzy.helpers.TranslationManager.isRTL;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+
+import com.bytepulse.hagzy.helpers.UiHelper;
 
 public class SlideMenuController {
     private final Context context;
@@ -20,7 +21,7 @@ public class SlideMenuController {
     private View overlay;
     private LinearLayout slideMenu;
     private boolean isMenuOpen = false;
-    private boolean isRTL = true;
+    private boolean isRTL = isRTL();
     private final int menuWidthDp = 335;
     private final float contentShiftFactor = 1.0f; // اضبط للتحكم بمدى سحب الـ content
 
@@ -147,13 +148,10 @@ public class SlideMenuController {
     }
 
     private int dp(int v) {
-        return (int) (v * context.getResources().getDisplayMetrics().density);
+        return UiHelper.dp(context, v);
     }
 
     float dpf(float value) {
-        assert context != null;
-        return TypedValue.applyDimension(
-                TypedValue.COMPLEX_UNIT_DIP, value, context.getResources().getDisplayMetrics()
-        );
+        return UiHelper.dpFloat(context, value);
     }
 }

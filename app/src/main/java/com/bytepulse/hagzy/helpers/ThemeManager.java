@@ -22,38 +22,40 @@ public class ThemeManager {
     private static boolean isDark = false; // الافتراضي: فاتح
 
     // 🔹 تحميل الحالة من SharedPreferences
-    private static Typeface cairoRegular;
-    private static Typeface cairoBold;
-    private static Typeface cairoMedium;
-    private static Typeface cairoLight;
-    private static Typeface cairoSemiBold;
-    private static Typeface cairoExtraBold;
-    private static Typeface cairoBlack;
+    private static Typeface ftRegular;
+    private static Typeface ftBold;
+    private static Typeface ftMedium;
+    private static Typeface ftLight;
+    private static Typeface ftSemiBold;
+    private static Typeface ftExtraBold;
+    private static Typeface ftBlack;
+    private static Typeface ftextraBold;
 
     // 🔹 تحميل الحالة + الخطوط
     public static void init(Context context) {
         SharedPreferences prefs = context.getSharedPreferences(PREF_NAME, Context.MODE_PRIVATE);
         isDark = prefs.getBoolean(KEY_IS_DARK, false);
 
-        if (cairoRegular == null) {
-            cairoRegular = ResourcesCompat.getFont(context, R.font.cairo_regular);
-            cairoBold = ResourcesCompat.getFont(context, R.font.cairo_bold);
-            cairoMedium = ResourcesCompat.getFont(context, R.font.cairo_medium);
-            cairoLight = ResourcesCompat.getFont(context, R.font.cairo_light);
-            cairoSemiBold = ResourcesCompat.getFont(context, R.font.cairo_semibold);
-            cairoExtraBold = ResourcesCompat.getFont(context, R.font.cairo_extrabold);
-            cairoBlack = ResourcesCompat.getFont(context, R.font.cairo_black);
+        if (ftRegular == null) {
+            ftRegular = ResourcesCompat.getFont(context, R.font.noto_sans_arabic_regular);
+            ftBold = ResourcesCompat.getFont(context, R.font.noto_sans_arabic_bold);
+            ftextraBold = ResourcesCompat.getFont(context, R.font.noto_sans_arabic_extrabold);
+            ftMedium = ResourcesCompat.getFont(context, R.font.noto_sans_arabic_medium);
+            ftLight = ResourcesCompat.getFont(context, R.font.noto_sans_arabic_light);
+            ftSemiBold = ResourcesCompat.getFont(context, R.font.noto_sans_arabic_semibold);
+            ftExtraBold = ResourcesCompat.getFont(context, R.font.noto_sans_arabic_extrabold);
+            ftBlack = ResourcesCompat.getFont(context, R.font.noto_sans_arabic_black);
         }
     }
 
     // 🔹 Fonts Getter
-    public static Typeface fontRegular() { return cairoRegular; }
-    public static Typeface fontBold() { return cairoBold; }
-    public static Typeface fontMedium() { return cairoMedium; }
-    public static Typeface fontLight() { return cairoLight; }
-    public static Typeface fontSemiBold() { return cairoSemiBold; }
-    public static Typeface fontExtraBold() { return cairoExtraBold; }
-    public static Typeface fontBlack() { return cairoBlack; }
+    public static Typeface fontRegular() { return ftRegular; }
+    public static Typeface fontBold() { return ftBold; }
+    public static Typeface fontMedium() { return ftMedium; }
+    public static Typeface fontLight() { return ftLight; }
+    public static Typeface fontSemiBold() { return ftSemiBold; }
+    public static Typeface fontExtraBold() { return ftExtraBold; }
+    public static Typeface fontBlack() { return ftBlack; }
 
     // 🔹 تبديل الوضع
     public static void toggleTheme(Context context) {

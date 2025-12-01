@@ -1,1 +1,36 @@
+**/PaymentConfig.java
+**/config/PaymentConfig.java
+hagzy/config/PaymentConfig.java
+
+google-services.json
+GoogleService-Info.plist
+
+# ════════════════════════════════════════════════════════════
+# Android Studio / Gradle
+# ════════════════════════════════════════════════════════════
+
+*.iml
+.gradle
+/local.properties
+/.idea/
+.DS_Store
 /build
+/captures
+.externalNativeBuild
+.cxx
+
+*.jks
+*.keystore
+keystore.properties
+
+*.log
+logs/
+
+*.tmp
+*.temp
+*.swp
+*~
+
+*.bak
+*.backup
+backup/

@@ -21,19 +21,23 @@
             android:name="com.mapbox.access_token"
             android:value="pk.eyJ1IjoiYWhtZWQ0NTIxNSIsImEiOiJjbWhxbnYweDcwNTJ1MmxyOHl1YmJ0aHZvIn0.Y1Zcrzz_40EWMH8t45Pbyg" />
         <activity
-            android:name="hagzy.MainActivity"
+            android:name="hagzy.activities.MainActivity"
             android:exported="false"
             android:theme="@style/Theme.Hagzy.NoActionBar" />
         <activity
-            android:name="hagzy.InboxActivity"
+            android:name="hagzy.activities.InboxActivity"
             android:exported="false"
             android:theme="@style/Theme.Hagzy.NoActionBar" />
         <activity
-            android:name="hagzy.MyBookingActivity"
+            android:name="hagzy.activities.FieldActivity"
             android:exported="false"
             android:theme="@style/Theme.Hagzy.NoActionBar" />
         <activity
-            android:name="hagzy.FieldActivity"
+            android:name="hagzy.activities.LiveMatchActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Hagzy.NoActionBar" />
+        <activity
+            android:name="hagzy.activities.TestDataActivity"
             android:exported="false"
             android:theme="@style/Theme.Hagzy.NoActionBar" />
     </application>

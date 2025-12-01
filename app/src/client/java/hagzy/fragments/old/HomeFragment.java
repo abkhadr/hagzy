@@ -1,0 +1,30 @@
+package hagzy.fragments.old;
+
+import android.os.Bundle;
+import android.view.View;
+import android.widget.FrameLayout;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+
+import hagzy.layouts.main.MainLayout;
+
+public class HomeFragment extends Fragment {
+
+    private FrameLayout root;
+
+    @Nullable
+    @Override
+    public View onCreateView(@NonNull android.view.LayoutInflater inflater,
+                             @Nullable android.view.ViewGroup container,
+                             @Nullable Bundle savedInstanceState) {
+        root = new FrameLayout(requireContext());
+        root.setLayoutParams(new FrameLayout.LayoutParams(
+                FrameLayout.LayoutParams.MATCH_PARENT,
+                FrameLayout.LayoutParams.MATCH_PARENT
+        ));
+        root.addView(new MainLayout(getContext()).getView());
+        return root;
+    }
+}

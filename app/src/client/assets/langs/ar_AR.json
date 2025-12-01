@@ -1,4 +1,7 @@
 {
+  "app": {
+    "name": "حجزي"
+  },
   "bookings": "الحجوزات",
   "search_hint": "ابحث عن ملعب أو مطعم...",
   "unknown": "صفحة غير معروفة",
@@ -13,12 +16,165 @@
     "privacy": "الخصوصية",
     "language": "اللغة",
     "logout": "تسجيل الخروج",
-    "booking": "الحجز"
+    "booking": "الحجز",
+    "my_profile": "ملفي",
+    "matches": "التحديات",
+    "stadiums": "الملاعب"
   },
   "login": {
     "title": "تسجيل الدخول"
   },
   "settings": {
-    "title": "الإعدادات"
+    "title": "الإعدادات",
+    "search_hint": "ابحث في الإعدادات...",
+    "search_title": "نتائج البحث",
+    "search_results": "النتائج",
+    "search_empty": "ابدأ البحث للعثور على الإعدادات",
+    "search_no_results_for": "لا توجد نتائج لـ",
+
+    "account": "الحساب",
+    "preferences": "التفضيلات",
+    "about": "حول",
+    "account_actions": "إجراءات الحساب",
+
+    "edit_profile": "تعديل الملف الشخصي",
+    "edit_profile_desc": "تغيير الاسم والصورة والمعلومات",
+
+    "language": "اللغة",
+    "language_desc": "العربية",
+
+    "arabic": "العربية",
+    "english": "الإنجليزية",
+    "notifications": "الإشعارات",
+    "notifications_desc": "إدارة التنبيهات والإشعارات",
+    "notifications_general": "عام",
+    "notifications_activity": "النشاط",
+    "notifications_updates": "التحديثات والأخبار",
+
+    "push_notifications": "الإشعارات الفورية",
+    "push_notifications_desc": "تلقي الإشعارات على جهازك",
+
+    "email_notifications": "إشعارات البريد الإلكتروني",
+    "email_notifications_desc": "تلقي التحديثات عبر البريد",
+
+    "likes_comments": "الإعجابات والتعليقات",
+    "likes_comments_desc": "إشعارات التفاعل مع منشوراتك",
+
+    "new_followers": "متابعين جدد",
+    "new_followers_desc": "عند متابعة شخص لك",
+
+    "mentions": "الإشارات",
+    "mentions_desc": "عند الإشارة إليك في منشور",
+
+    "app_updates": "تحديثات التطبيق",
+    "app_updates_desc": "إشعارات الإصدارات الجديدة",
+
+    "news_features": "الأخبار والمميزات",
+    "news_features_desc": "معرفة المميزات الجديدة",
+
+    "privacy_policy": "سياسة الخصوصية",
+    "privacy_policy_desc": "كيف نحمي بياناتك",
+    "privacy_account": "خصوصية الحساب",
+    "privacy_data": "البيانات والنشاط",
+    "privacy_security": "الأمان",
+
+    "private_account": "حساب خاص",
+    "private_account_desc": "فقط المتابعون يمكنهم رؤية منشوراتك",
+
+    "show_online_status": "إظهار حالة الاتصال",
+    "show_online_status_desc": "السماح للآخرين برؤية نشاطك",
+
+    "blocked_accounts": "الحسابات المحظورة",
+    "blocked_accounts_desc": "إدارة قائمة الحظر",
+
+    "muted_accounts": "الحسابات المكتومة",
+    "muted_accounts_desc": "الحسابات التي أخفيت منشوراتها",
+
+    "download_data": "تنزيل بياناتك",
+    "download_data_desc": "احصل على نسخة من معلوماتك",
+
+    "two_factor": "المصادقة الثنائية",
+    "two_factor_desc": "حماية إضافية لحسابك",
+
+    "login_activity": "نشاط تسجيل الدخول",
+    "login_activity_desc": "مراجعة عمليات الدخول الأخيرة",
+
+    "change_password": "تغيير كلمة المرور",
+    "change_password_desc": "تحديث كلمة المرور الخاصة بك",
+
+    "terms": "الشروط والأحكام",
+    "terms_desc": "اتفاقية الاستخدام",
+
+    "terms_intro_title": "مرحباً بك",
+    "terms_intro_text": "باستخدامك لهذا التطبيق، فإنك توافق على الشروط والأحكام التالية. يرجى قراءتها بعناية.",
+
+    "terms_acceptance_title": "1. قبول الشروط",
+    "terms_acceptance_text": "بالوصول إلى هذا التطبيق واستخدامه، فإنك تقر بأنك قد قرأت وفهمت ووافقت على الالتزام بهذه الشروط والأحكام.",
+
+    "terms_conduct_title": "2. سلوك المستخدم",
+    "terms_conduct_text": "أنت توافق على استخدام التطبيق فقط للأغراض القانونية وبطريقة لا تنتهك حقوق الآخرين أو تقيد أو تمنع استخدامهم للتطبيق.",
+
+    "terms_content_title": "3. حقوق المحتوى",
+    "terms_content_text": "أنت تحتفظ بملكية أي محتوى تنشره على التطبيق، ولكنك تمنحنا ترخيصاً لاستخدام وعرض وتوزيع هذا المحتوى.",
+
+    "terms_privacy_title": "4. الخصوصية",
+    "terms_privacy_text": "استخدامك للتطبيق يخضع أيضاً لسياسة الخصوصية الخاصة بنا، والتي تصف كيفية جمعنا لبياناتك الشخصية واستخدامها.",
+
+    "terms_termination_title": "5. الإنهاء",
+    "terms_termination_text": "نحتفظ بالحق في إنهاء أو تعليق حسابك في أي وقت دون إشعار مسبق إذا اعتقدنا أنك انتهكت هذه الشروط.",
+
+    "terms_disclaimer_title": "6. إخلاء المسؤولية",
+    "terms_disclaimer_text": "يتم توفير التطبيق 'كما هو' دون أي ضمانات من أي نوع. نحن لا نضمن أن التطبيق سيكون خالياً من الأخطاء أو متاحاً دون انقطاع.",
+
+    "terms_last_updated": "آخر تحديث: نوفمبر 2024",
+
+    "logout": "تسجيل الخروج",
+    "logout_desc": "الخروج من حسابك الحالي",
+
+    "version_label": "الإصدار %s (%s)"
+  },
+  "main_header": {
+    "profile_button": "ملفي",
+    "challenge_button": "التحديات"
+  },
+  "player_profile": {
+    "default_name": "لاعب",
+    "default_title": "لاعب",
+    "id_label": "المعرف",
+    "copy_id_toast": "تم نسخ المعرف",
+    "section": {
+      "level": "المستوى والتقدم",
+      "stats": "إحصائيات المباريات",
+      "skills": "المهارات الفنية",
+      "achievements": "الإنجازات"
+    },
+    "xp_progress": "%1$d / %2$d نقطة خبرة",
+    "stats": {
+      "matches": "المباريات",
+      "wins": "الانتصارات",
+      "draws": "التعادل",
+      "losses": "الخسائر",
+      "goals": "الأهداف",
+      "assists": "التمريرات",
+      "win_rate": "نسبة الفوز"
+    },
+    "skills": {
+      "strength": "القوة البدنية",
+      "speed": "السرعة",
+      "stamina": "التحمل",
+      "technique": "المهارة التقنية",
+      "teamwork": "روح الفريق"
+    },
+    "achievements": {
+      "none": "لا توجد إنجازات حتى الآن",
+      "locked": "لا توجد إنجازات مفتوحة"
+    },
+    "position": {
+      "generic": "لاعب",
+      "goalkeeper": "حارس مرمى",
+      "defender": "مدافع",
+      "midfielder": "لاعب وسط",
+      "forward": "مهاجم"
+    }
   }
 }
